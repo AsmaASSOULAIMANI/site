@@ -1,0 +1,35 @@
+<body>
+    <div class ="login-box"> 
+        <h1>Formulaire d'inscription </h1>
+        <div class="textbox">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="Nom et Prenom" name="fullname" [(ngModel)]="fullname" value="">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="Email" name="email" [(ngModel)]="email" value="">
+        </div>
+        <div class="textbox">
+                <i class="fa fa-calendar"></i>
+            <input type="text" placeholder="Date naissance" name="daten" [(ngModel)]="daten" value="">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-male"></i><i class="fa fa-female"></i>
+            <input type="text" placeholder="Sexe" name="sexe" [(ngModel)]="sexe" value="">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-graduation-cap"></i>
+            <input type="text" placeholder="Niveau scolaire ( bac + )" name="niveau" [(ngModel)]="niveau" value="">
+        </div>
+        <div class="textbox">
+                <i class="fa fa-calendar"></i>
+                <input type="text" placeholder="Durée de stage " name="duree" [(ngModel)]="duree" value="">
+        </div>
+    </div>
+
+        <button type="button" class="btn btn-secondary btn-lg btn-block" (click)="attes()">Envoyer</button>
+
+        <!--<input class="btn" type="button" name="" value="Envoyer ">-->
+    </div>
+
+</body>

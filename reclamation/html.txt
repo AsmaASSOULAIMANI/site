@@ -1,0 +1,18 @@
+<body>
+    <div class ="login-box"> 
+        <h1>Reclamation</h1>
+        <div class="textbox">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="Nom et Prenom" name="" value="">
+        </div>
+        <div class="textbox">
+                <i class="fa fa-comment"></i>
+            <input type="text" placeholder="Votre reclamation" name="" value="">
+        </div>
+       
+
+        
+        <input class="btn" type="button" name="" value="Envoyer ">
+    </div>
+
+</body>

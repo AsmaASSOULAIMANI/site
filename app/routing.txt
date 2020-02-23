@@ -1,0 +1,70 @@
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { AccueilComponent } from './accueil/accueil.component';
+import { InscriptionComponent } from './inscription/inscription.component';
+import { ConnexionComponent } from './connexion/connexion.component';
+import { Home1Component } from './home1/home1.component';
+import { DemandeAttesComponent } from './demandeattes/demande-attes.component';
+import { DemandeStageComponent } from './demandestage/demande-stage.component';
+import { ReclamationComponent } from './reclamation/reclamation.component';
+import { RecommandComponent } from './recommand/recommand.component';
+import { FormulaireComponent } from './formulaire/formulaire.component';
+
+
+const routes: Routes = [
+  {
+
+    path: "",
+    redirectTo: "Accueil",
+    pathMatch: "full"
+  },
+  {
+    path:'Accueil',
+    component: AccueilComponent
+  },
+  {
+    path:'Inscription',
+    component: InscriptionComponent
+  },
+  {
+    path:'Connexion',
+    component:ConnexionComponent
+  },
+  
+  {
+    path:'home1',
+    component: Home1Component
+  },
+  {
+    path:'Demande de stage',
+    component: DemandeStageComponent
+  },
+  {
+    path:'Demande attestation',
+    component: DemandeAttesComponent
+  },
+  {
+    path:'formulaire',
+    component:FormulaireComponent
+  },
+  {
+    path:'Reclamation',
+    component:ReclamationComponent
+  },
+  {
+    path:'Recommandation',
+    component:RecommandComponent
+  },
+  {
+    path: "**",
+    redirectTo: ""
+  }
+
+ 
+];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }

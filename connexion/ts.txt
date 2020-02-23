@@ -1,0 +1,29 @@
+import { Component, OnInit } from '@angular/core';
+import {AngularFireAuth} from '@angular/fire/auth';
+import {Router} from '@angular/router';
+
+@Component({
+  selector: 'app-connexion',
+  templateUrl: './connexion.component.html',
+  styleUrls: ['./connexion.component.css']
+})
+export class ConnexionComponent implements OnInit {
+
+  Email:string='';
+  password:string='';
+
+  constructor(private fire:AngularFireAuth, private router:Router) { }
+
+  ngOnInit() {
+  }
+
+  login(){
+    this.fire.auth.signInWithEmailAndPassword(this.Email,this.password)
+    .then(user =>{
+      this.router.navigate(['/home1'])
+    }).catch(error=>{
+      console.error(error)
+    })
+  }
+
+}

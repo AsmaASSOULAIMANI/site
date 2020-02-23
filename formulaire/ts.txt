@@ -1,0 +1,20 @@
+import { Component, OnInit } from '@angular/core';
+import { HttpClient } from 'selenium-webdriver/http';
+
+@Component({
+  selector: 'app-formulaire',
+  templateUrl: './formulaire.component.html',
+  styleUrls: ['./formulaire.component.css']
+})
+export class FormulaireComponent implements OnInit {
+  selectedFile= null;
+  constructor(private http:HttpClient) {}
+  onFileSelected(event){
+    this.selectedFile = event.target.files[0];
+  }
+  
+
+  ngOnInit() {
+  }
+
+}

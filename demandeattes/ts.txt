@@ -1,0 +1,15 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-demande-attes',
+  templateUrl: './demande-attes.component.html',
+  styleUrls: ['./demande-attes.component.css']
+})
+export class DemandeAttesComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}

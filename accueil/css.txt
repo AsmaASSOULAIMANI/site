@@ -1,0 +1,31 @@
+
+h1
+{
+    color:white;
+    font-size: 60px; 
+    text-align: left;
+    clear:both;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: left;
+    font-size: 20px; 
+}
+em{
+    font-size: 22px;
+    color: red;
+}
+h4{
+    font-size: 30px;
+    color:rgb(116, 44, 44);
+}
+img
+{
+    float:left
+}
+p{
+    clear: both;
+}

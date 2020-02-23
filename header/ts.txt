@@ -1,0 +1,39 @@
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import {AngularFireAuth} from '@angular/fire/auth';
+import * as firebase from 'firebase/app';
+import { Observable } from 'rxjs';
+
+@Component({
+  selector: 'app-header',
+  templateUrl: './header.component.html',
+  styleUrls: ['./header.component.css']
+})
+export class HeaderComponent implements OnInit {
+  user : Observable<firebase.User>;
+  public isLoggedIn: Boolean=false;
+  private email: String;
+
+  constructor(public afAuth: AngularFireAuth, public router: Router) { 
+    this.user = afAuth.authState;
+
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        this.isLoggedIn= true;
+      } else {
+
+        this.isLoggedIn= false;
+        this.router.navigate(['/connexion']);
+      }
+    });
+  }
+
+  ngOnInit() {
+  }
+  logout(){
+    this.afAuth.auth.signOut();
+    this.isLoggedIn= false;
+    this.router.navigate(['/connexion']);
+  }
+
+}

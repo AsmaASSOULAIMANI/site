@@ -1,0 +1,44 @@
+import { Component, OnInit } from '@angular/core';
+import{AngularFireDatabase,AngularFireList} from '@angular/fire/database';
+import { Observable } from 'rxjs';
+import {Router} from '@angular/router';
+import {AngularFireAuth} from '@angular/fire/auth';
+
+@Component({
+  selector: 'app-inscription',
+  templateUrl: './inscription.component.html',
+  styleUrls: ['./inscription.component.css']
+})
+
+export class InscriptionComponent implements OnInit {
+
+ 
+
+    email :string=''
+    password :string=''
+
+
+  items: Observable<any[]>;
+  itemList: AngularFireList<any>
+
+  constructor(public db:AngularFireDatabase,private fire:AngularFireAuth, public router:Router) { 
+    this.itemList = db.list('inscription')
+  }
+
+  ngOnInit() {
+  }
+
+  insertinscription(){
+    let element = <any> document.getElementById("123");  
+if (element.checked) {
+    
+    this.fire.auth.createUserWithEmailAndPassword(this.email,this.password)
+    .then(user=>{
+      this.router.navigate(['/formulaire']) 
+    }).catch(error=>{
+      console.error(error)
+    })
+  }
+  }
+
+}

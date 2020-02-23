@@ -1,0 +1,19 @@
+<body>
+    <div class ="login-box" > 
+        <h1>Inscription</h1>
+        <div class="textbox">
+              <i class="fa fa-envelope-open" aria-hidden="true"></i> 
+            <input type="email" placeholder="exemple@gmail.com" name="email" [(ngModel)]="email">
+        </div>
+
+        <div class="textbox">
+              <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" name="password" [(ngModel)]="password">
+        </div>
+       <form> 
+                <input id='123' type="checkbox" name="test" value="">les informations demandées lors de l'inscription seront protégées, nous respectons la confidentialité de votre vie personnelle, si vous accepter de partager vos informations cliquer sur le bouton pour continuer l'inscription.
+        </form>
+        <button class="uk-button uk-button-primary " (click)="insertinscription()">inscription</button>
+    </div>
+
+</body>

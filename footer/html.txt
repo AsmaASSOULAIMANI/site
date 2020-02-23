@@ -1,0 +1,21 @@
+<nav class="navbar navbar-dark bg-dark mt-5 fixed-bottom">
+    
+        <div 
+        class="navbar-expand mr-auto">
+            <div 
+        class="navbar-nav">
+              <a 
+        class="nav-item nav-link active" href="#"><i 
+        class="fa fa-map-marker"></i>18, RUE 486, LES AMICALES AGADIR, MAROC</a>
+              <a 
+        class="nav-item nav-link" href="#"><i 
+        class="fa fa-phone"></i>+212 (0) 528 232 462</a>
+              <a 
+        class="nav-item nav-link" href="#"><i 
+        class="fa fa-envelope"></i>CONTACT@INFOSAT.MA</a>
+            </div>
+          </div>
+          
+        
+      
+      </nav>

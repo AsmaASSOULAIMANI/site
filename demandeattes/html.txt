@@ -1,0 +1,21 @@
+<body>
+    <div class ="login-box"> 
+        <h1>Demande attestation</h1>
+        <div class="textbox">
+              <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" placeholder="Nom et Prenom" name="nomprenom" [(ngModel)]="nomprenom">
+        </div>
+        <div class="textbox">
+                <i class="fa fa-users"></i>
+            <input type="text" placeholder="Encadrent" name="encadrant" [(ngModel)]="encadrant">
+        </div>
+        <div class="textbox">
+                <i class="fa fa-calendar"></i>
+                <input type="text" placeholder="Durée de stage( De ... jusqu'à ....)" name="" value="">
+        </div>
+
+        
+        <input class="btn" type="button" name="" value="Envoyer ">
+    </div>
+
+</body>

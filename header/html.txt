@@ -1,0 +1,85 @@
+<nav class="navbar navbar-dark bg-dark mb-5">
+    <img src="http://www.infosat.ma/wp-content/uploads/2015/10/logo-desktop@2x.png" width="180" height="60" alt="">
+    <div 
+  class="navbar-expand mr-auto">
+      <div 
+  class="navbar-nav">
+        <a 
+  class="nav-item nav-link"  >Home</a>
+        <a 
+  class="nav-item nav-link">Inscription</a>
+        <a 
+  class="nav-item nav-link" >Connexion </a>
+        <a 
+  class="nav-item nav-link"  >Déconnexion</a> 
+
+      </div>
+
+    </div>
+    <div 
+  class="navbar-expand ml-auto navbar-nav">
+      <div 
+  class="navbar-nav">
+        <a 
+  class="nav-item nav-link" href="https://www.facebook.com/Infosat-sct-575741539110276/" target="_blank">
+          <i 
+  class="fa fa-facebook"></i>
+        </a>
+        <a 
+  class="nav-item nav-link" href="git.infosat.ma" target="_blank">
+          <i 
+  class="fa fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+</ul>
+

@@ -1,0 +1,18 @@
+
+<body>
+   
+    <div class ="login-box" > 
+        <h1>Connexion</h1>
+        <div class="textbox">
+                <i class="fa fa-user"></i>
+            <input type="text" placeholder="Email" name="Email" [(ngModel)]="Email" >
+        </div>
+        <div class="textbox">
+            <i class="fa fa-lock" ></i>                 
+            <input type="password" placeholder="Password" name="password" [(ngModel)]="password">
+       
+          
+        </div>
+        <input class="btn" (click)="login()" type="button" name="" value="Connexion ">
+    </div>
+    </body>

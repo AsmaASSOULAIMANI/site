@@ -1,0 +1,6 @@
+
+ 
+    <h1>  Espace stagières  </h1>
+    <h2>La meilleure formation en nouvelles technologies au service des systèmes d'informations communications et de sécurité</h2>
+    <h3><br/>INFOSAT fut crée à l'aube du troisième millénaire, ayant comme premier but servir ses clients et s'engager envers ses partenaires pour une performance globale et durable.Une équipe d'hommes et de femmes qualifiés veille tous les jours pour la promotion de notre métier et no valeurs. Si vous chercher à intégrer une équipe intelligente <a  routerlink="inscription">rejoignez-nous</a>.<br/><br/> </h3>
+    

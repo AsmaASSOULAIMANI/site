@@ -1,0 +1,56 @@
+<body>
+    <div class ="login-box"> 
+        <h1>Demande de stage </h1>
+        <div class="textbox">
+              <i class="fa fa-user" ></i>
+            <input type="text" placeholder="Nom complet" name="" value="">
+        </div>
+        <div class="textbox">
+              <i class="fa fa-envelope" ></i> 
+            <input type="email" placeholder="Mail" name="" value="">
+        </div>
+        <div class="textbox">
+            <i class="fa fa-mobile" ></i> 
+          <input type="text" placeholder="Numero du portable" name="" value="">
+      </div>
+      <div class="btp" >
+            <i class="fa fa-graduation-cap"></i>
+           Niveau scolaire bac + :
+            <input type="radio" name= "Sexe"> 1
+            <input type="radio" name= "Sexe"> 2
+            <input type="radio" name= "Sexe"> 3
+            <input type="radio" name= "Sexe"> 4
+            <input type="radio" name= "Sexe"> 5
+        </div>
+
+      
+      <div class="btp" >
+            <i class="fa fa-male"></i>
+          Sexe:
+          <input type="radio" name= "Sexe"> Femme
+          <input type="radio" name= "Sexe"> Homme
+      </div>
+      <div class="textbox">
+            <i class="fa fa-laptop"></i>
+          <input type="text" placeholder="Domaine de stage" name="" value="">
+      </div>
+      <div class="textbox">
+            <i class="fa fa-laptop"></i>
+          <input type="text" placeholder="Durée de stage(mois)" name="" value="">
+      </div>
+      <!--<p>Clicker sur envoyer pour confirmer votre demande de stage</p>
+
+        <button onclick="myFunction()">Envoyer</button>
+
+        <script>
+             function myFunction() {
+                alert("votre  demande est envoye");
+            }
+        </script>-->
+        <input class="btn" type="button" name="" value="Envoyer">
+
+
+        
+    </div>
+
+</body>

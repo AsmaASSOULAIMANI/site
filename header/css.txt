@@ -1,0 +1,7 @@
+a.nav-item.nav-link {
+    font-size: 1.2em !important;
+}
+.navbar-expand .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 3rem;
+}
